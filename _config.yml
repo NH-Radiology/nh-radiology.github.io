@@ -1,0 +1,15 @@
+# Site settings
+
+title: New Hampshire Radiology Society
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://techfolios.github.io"
+baseurl: ""
+
+theme-home: theme-home-builtin-3.html
+
+rouge-theme: igorpro
+
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
+include: [_data]
+

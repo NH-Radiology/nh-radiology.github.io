@@ -1,0 +1,12 @@
+
+<div class="nonprintable">
+  <nav class="ui stackable menu">
+    <a href="{{ site.baseurl}}/" class="brand item">
+    <img class="ui avatar image" src="/images/acr.png"><span>{{ site.data.bio.basics.name }}</span>
+    </a>
+    <a href="{{ site.baseurl }}/about" class=" {% if include.active == "about" %} active {% endif %}item">About</a>
+    <a href="{{ site.baseurl }}/governance" class=" {% if include.active == "governance" %} active {% endif %}item">Governance</a>
+    <a href="{{ site.baseurl }}/awards" class=" {% if include.active == "awards" %} active {% endif %}item">Awards</a>
+    <a href="{{ site.baseurl }}/contact" class=" {% if include.active == "contact" %} active {% endif %}item">Contact</a>
+  </nav>
+</div>
