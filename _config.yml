@@ -1,8 +1,8 @@
 # Site settings
 
 title: New Hampshire Radiology Society
-# Edit next line, replacing 'techfolios' with your github username
-url: "https://techfolios.github.io"
+# To merge to another URL, replace here:
+url: "https://nh-radiology.github.io"
 baseurl: ""
 
 theme-home: theme-home-builtin-3.html
